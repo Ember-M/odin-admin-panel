@@ -207,16 +207,19 @@ img{
     grid-column: 1/2;
     grid-row: 1/2;
     align-self: center;
+    font-weight: 700;
 }
 #ann{
     grid-row: 1/2;
     grid-column: 2/3;
     align-self: center;
+    font-weight: 700;
 }
 #tren{
     grid-row: 3/4;
     grid-column: 2/3;
     align-self: center;
+    font-weight: 700;
 }
 .cardContainer{
     grid-row: 2/5;
@@ -235,19 +238,17 @@ img{
     border-radius: 8px;
     
 }
-.card{
-    position: relative;
-}
+
 .flexIcons{
     display: flex;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-bottom: 10px;
+    justify-content: flex-end;
+    margin-top: 20px;
     margin-right: 20px;
 }
 .flexIcons>img{
     padding-right: 5px;
+    margin-left: 20px;
+    align-self: flex-start;
 }
 .cardContainer>div{
     text-align:justify;
@@ -269,14 +270,41 @@ img{
     grid-column: 2/3;
     display: grid;
     grid-template-rows: repeat(3,1fr);
-    padding: 10px;
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.announcementContainer>div>h4{
+    font-size: 1rem;
+    font-weight: 900;
+}
+.announcementContainer>div>p{
+    font-size: .85rem;
 }
 
 .trendingContainer{
     grid-row: 4/5;
     grid-column: 2/3;
-    padding: 10px;
+    padding: 20px;
+    padding-left: 20px;
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: repeat(4,1fr);
+}
+.trendingContainer>img{
+    margin:auto;
+}
+.trendingContainer>div{
+    
+    margin: auto;
+    margin-left: 0;
+}
+.trendingContainer>div>h5{
+    font-size: .6em;
+    font-weight: 700;
+}
+.trendingContainer>div>p{
+    color: rgba(128, 128, 128, 0.904);
+    font-size: .8em;
+
 }
