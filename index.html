@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,32 +18,32 @@
 <div class="pageContainer">
     <div class="sidebarContainer">
         <div class="logoContainer">
-            <a href="">Logo</a>
+            <img src="./Icons/view-dashboard.png" alt="dashboard">
             <div>Dashboard</div>
         </div>
         <div class="firstNavigation">
             <ul class="firstNavList">
-                <li>Logo</li>
+                <img src="./Icons/home.png" alt="home">
                 <li>Home</li>
-                <li>Logo</li>
+                <img src="./Icons/account.png" alt="account">
                 <li>Profile</li>
-                <li>Logo</li>
+                <img src="./Icons/message.png" alt="message">
                 <li>Messages</li>
-                <li>Logo</li>
+                <img src="./Icons/history.png" alt="">
                 <li>History</li>
-                <li>Logo</li>
+                <img src="./Icons/calendar-check.png" alt="">
                 <li>Tasks</li>
-                <li>Logo</li>
+                <img src="./Icons/account-group.png" alt="">
                 <li>Communities</li>
             </ul>
         </div>
         <div class="secondNavigation">
             <ul class="secondNavList">
-                <li>Logo</li>
+                <img src="./Icons/cog.png" alt="">
                 <li>Settings</li>
-                <li>Logo</li>
+                <img src="./Icons/face-agent.png" alt="">
                 <li>Support</li>
-                <li>Logo</li>
+                <img src="./Icons/lock.png" alt="">
                 <li>Privacy</li>
             </ul>
         </div>
@@ -44,17 +51,17 @@
     <div class="headerContainer">
         <div class="searchbarContainer">
             <ul class="searchItemsLeft">
-                <li>search icon</li>
+                <img id="search" src="./Icons/magnify.png" alt="search">
             </ul>
                 <ul class="searchItemsRight">
-                <li>alert</li>
-                <li>profile icon</li>
-                <li>Morgan Oakley</li>
+                <img src="./Icons/alarm-light-outline.png" alt="">
+                <img src="./Icons/ember32.png" alt="" class="profileIcon">
+                <li>Ember Maes</li>
             </ul>    
         
         </div>
-        <div class="headerLogo">Logo</div>
-        <div class="headerUserName">Name</div>
+        <div class="headerLogo"><img id="profileImg" src="./Icons/ember.png" alt="" class="profileIcon"></div>
+        <div class="headerUserName"><h3>Welcome,</h3><h1>Ember Maes (@emglow)</h1></div>
         <div class="headerButtons">
             <button>New</button>
             <button>Upload</button>
@@ -65,9 +72,36 @@
         <p id="proj">Your Projects</p>
         <p id="ann">Announcements</p>
         <p id="tren">Trending</p>
-        <div class="cardContainer">Card</div>
-        <div class="announcementContainer">Announcement</div>
-        <div class="trendingContainer">Trending</div>
+        <div class="cardContainer">
+        <div class='card'><h2>Important Task One</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab adipisci, consectetur dolorum laudantium illum itaque atque, recusandae aliquam nemo vitae perspiciatis accusamus harum veniam odio natus iusto! Exercitationem, quis?</p><div class="flexIcons"><img src="./Icons/cards-club.png" alt=""><img src="./Icons/cards-diamond.png"  alt=""><img src="./Icons/cards-heart.png" alt=""></div></div>
+
+        <div class="card"><h2>Please Read</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab adipisci, consectetur dolorum laudantium illum itaque atque, recusandae aliquam nemo vitae perspiciatis accusamus harum veniam odio natus iusto! Exercitationem, quis?</p><div class="flexIcons"><img src="./Icons/cards-club.png" alt=""><img src="./Icons/cards-diamond.png"  alt=""><img src="./Icons/cards-heart.png" alt=""></div></div>
+
+        <div class="card"><h2>Time Sensitive</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab adipisci, consectetur dolorum laudantium illum itaque atque, recusandae aliquam nemo vitae perspiciatis accusamus harum veniam odio natus iusto! Exercitationem, quis?</p><div class="flexIcons"><img src="./Icons/cards-club.png" alt=""><img src="./Icons/cards-diamond.png"  alt=""><img src="./Icons/cards-heart.png" alt=""></div></div>
+
+        <div class="card"><h2>Contact Log</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab adipisci, consectetur dolorum laudantium illum itaque atque, recusandae aliquam nemo vitae perspiciatis accusamus harum veniam odio natus iusto! Exercitationem, quis?</p><div class="flexIcons"><img src="./Icons/cards-club.png" alt=""><img src="./Icons/cards-diamond.png"  alt=""><img src="./Icons/cards-heart.png" alt=""></div></div>
+
+        <div class="card"><h2>Visitor Count</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab adipisci, consectetur dolorum laudantium illum itaque atque, recusandae aliquam nemo vitae perspiciatis accusamus harum veniam odio natus iusto! Exercitationem, quis?</p><div class="flexIcons"><img src="./Icons/cards-club.png" alt=""><img src="./Icons/cards-diamond.png"  alt=""><img src="./Icons/cards-heart.png" alt=""></div></div>
+
+        <div class="card"><h2>Weather</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ab adipisci, consectetur dolorum laudantium illum itaque atque, recusandae aliquam nemo vitae perspiciatis accusamus harum veniam odio natus iusto! Exercitationem, quis?</p><div class="flexIcons"><img src="./Icons/cards-club.png" alt=""><img src="./Icons/cards-diamond.png"  alt=""><img src="./Icons/cards-heart.png" alt=""></div></div>
+
+        </div>
+        <div class="announcementContainer">
+            <div>TEST</div>
+            <div>TEST</div>
+            <div>TEST</div>
+
+        </div>
+        <div class="trendingContainer">
+        <div>TEST</div>
+        <div>TEST</div>
+        <div>TEST</div>
+        <div>TEST</div>
+        <div>TEST</div>
+        <div>TEST</div>
+        <div>TEST</div>
+        <div>TEST</div>
+        </div>
 
     </div>
 
